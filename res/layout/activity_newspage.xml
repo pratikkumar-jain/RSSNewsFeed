@@ -1,0 +1,36 @@
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+<LinearLayout 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:orientation="vertical"
+	tools:context="com.example.rssnewsfeed.Newspage" >
+
+<ImageView 
+	android:src="@drawable/rss1"
+	android:layout_width="200px"
+	android:layout_height="200px"
+	android:layout_gravity="top"	
+	/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text="MUMBAI: India's ODI captain Mahendra Singh Dhoni's critical comments about Ajinkya Rahane's batting in 50-over format may have raised a lot of eyebrows but the stand-in captain himself has decided to take his senior's feedback in a positive manner and move on.
+Rahane was dropped from India's ODI playing XI for two matches in the series in Bangladesh and Dhoni had said that the Mumbai batsman has problems in rotating the strike in slow sub-continental conditions. But he was named captain in barely a week's time.
+Dhoni bhai gave me a feedback and I took it in a positive manner and I have moved on. Bangladesh tour is past for me. My aim is to be more consistent in ODIs as it's all in the mind, Rahane told media persons at the pre-departure press conference of the Indian cricket team ahead of their short five-match limited overs series in Zimbabwe.
+Rahane also said that he did not believe in classifying players into seniors and juniors.
+There is nothing called senior or junior in a team. All the 15 players are equally important and they should all believe in their abilities. I have the backing of all the players. As a captain, I have my own set of ideas and will like to back my instincts, said Rahane, who has already played 15 Tests, 55 ODIs and 11 T20 Internationals for India." 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="italic"/>
+
+</LinearLayout>
+</ScrollView>
